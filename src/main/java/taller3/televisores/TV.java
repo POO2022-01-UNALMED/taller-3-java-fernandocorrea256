@@ -40,6 +40,10 @@ public class TV {
 		return this.estado;
 	}
 	
+	public static int getNumTV() {
+		return numTV;
+	}
+	
 	
 	// Setters
 	public void setMarca(Marca marca) {
@@ -60,6 +64,10 @@ public class TV {
 	
 	public void setCanal(int canal) {
 		this.canal = canal;
+	}
+	
+	public static void setNumTV(int newNumTV) {
+		numTV = newNumTV;
 	}
 	
 	// Methods
